@@ -32,7 +32,18 @@ nonvalid_email = []
 
 # Open my emails list file
 f = open("emails.txt","r")
-    
+
+''' email_Queue  = Queue()
+if re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', email):
+    print("Valid")
+    email_Queue.put(email)
+else:
+    print("Invalid")email_Queue  = Queue()
+if re.match('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$', email):
+    print("Valid")
+    email_Queue.put(email)
+else:
+    print("Invalid") '''
 
 # This function is where the actual task is done
 # Function definition
