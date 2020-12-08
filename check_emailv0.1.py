@@ -1,6 +1,7 @@
 
 # Queue and threads in Python 
 # https://www.youtube.com/watch?v=NwH0HvMI4EA
+# Git Ref: https://github.com/clondon/check_emails
 
 # Import Queue module
 from queue import Queue
