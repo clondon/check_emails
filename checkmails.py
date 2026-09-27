@@ -48,7 +48,7 @@ def exampleJob(worker):
 def threader():
     # Loops while there is something in the queue
     while True:
-        # This "pops" a jon off the queue.
+        # This "pops" a job off the queue.
         # This could be the job board.
         worker = q.get()
         # Call the worker function with the job to be done
